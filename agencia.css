@@ -1,0 +1,41 @@
+.viagem {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+    gap: 30px;
+}
+
+.viagem-certa i {
+    color: blue;
+    font-size: 40px;
+}
+
+.div-passagem h1 {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: yellow;
+}
+
+.div-consultar ul
+li {
+
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    color: yellow;
+
+}
+
+.header-01 {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 15px;
+    padding: 100px;
+
+
+
+}
