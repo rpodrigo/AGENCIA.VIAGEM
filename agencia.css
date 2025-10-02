@@ -80,7 +80,7 @@
 
 }
 .section-03 button {
-    background-color: yellow;
+    background-color: rgb(255, 0, 34);
     width: 180px;
     padding: 10px;
     border: none;
@@ -92,4 +92,30 @@
     background-color: yellow;
     transition: 0.8s;
     box-shadow: 5px 5px 10px;
+}
+
+.section-04 {
+    background-color: black;
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.div-section-04 {
+    width: 500px;
+    height: 500px;
+    background-color: #e7204e;
+
+}
+.div-asection-04 img {
+    width: 20%;
+
+}
+
+.div-star img {
+  width: 150px;
+  height: 150px;
 }
