@@ -5,19 +5,19 @@
     text-align: center;
     align-items: center;
     padding: 30px;
-    
+
 }
 
 .viagem-certa i {
     color: blue;
-    
+
 }
 
 .div-passagem h1 {
     font-size: 25px;
     text-transform: uppercase;
     color: yellow;
-    
+
 }
 
 .div-consultar ul {
@@ -32,6 +32,7 @@
     color: yellow;
     text-decoration: none;
 }
+
 .div-passagem ul li a {
     text-decoration: none;
     /*remove o sublinhado*/
@@ -81,18 +82,20 @@
     padding: 250px;
     background-image: url(agencia.imagem/bus-2546383_1280.jpg);
     background-attachment: fixed;
-    background-position: center top ;
+    background-position: center top;
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
+
 .section-03 button {
     background-color: #f9d423;
     width: 180px;
     padding: 10px;
     border: none;
-    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.445);;
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.445);
+    ;
 
 }
 
@@ -106,39 +109,39 @@
     background-color: black;
     padding: 10px;
 }
-    
-    
+
+
 .div-section-04 {
     width: 1000px;
+    justify-content: space-evenly;
     height: 500px;
     background-color: #e7204e;
-    
+
 
 }
+
 .div-asection-06 img {
     width: 20px;
 
 }
 
 .div-star img {
-  width: 150px;
-  height: 150px;
+    width: 150px;
+    height: 150px;
 }
 
 .texte {
     display: flex;
     align-items: center;
-    justify-content:baseline;
-    gap: 15px;
-    display: flex;
-    flex-direction: column;
+    justify-content: space-evenly;
+
 }
 
 .texte img {
     width: 300px;
     padding: 10px;
-    justify-content: center;
-    
+    justify-content: space-evenly;
+
 
 
 }
