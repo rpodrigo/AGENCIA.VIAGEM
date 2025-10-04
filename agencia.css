@@ -66,14 +66,14 @@
     justify-content: space-evenly;
 }
 
-.div-agencia {
+.div-agencia{
     color: yellow;
     font-size: 40px;
     margin-left: 40px;
 }
 
-.div-estação p {
-    color: white;
+.div-estação{
+    color: rgb(255, 255, 255);
     font-size: 30px;
 
 }
@@ -105,72 +105,30 @@
     box-shadow: 5px 5px 10px;
 }
 
-.section-04 {
-    background-color: black;
-    padding: 10px;
+.div-section-04{
+    width: 350px; /*largura das 3 caixas*/
+    height: 350px;/*altura das 3 caixas*/
+    background-color: rgb(95, 95, 130);/*cor de fundo para as caixas*/
+    text-align: center;/*alinhamento geral dos textos*/
+    padding: 15px;/*espaçamento interno das caixas*/
+    box-shadow: 10px 10px 20px white;
 }
 
-
-.div-section-04 {
-    width: 1000px;
-    justify-content: space-evenly;
-    height: 500px;
-    background-color: #e7204e;
-
-
-}
-
-.div-asection-06 img {
+.div-livre img{
     width: 20px;
-
 }
 
-.div-star img {
-    width: 150px;
-    height: 150px;
+.div-livre p{
+    font-size: 15px;
+    color: white;
 }
 
-.texte {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-left: 30px;
-
-}
-
-.texte img {
-    width: 300px;
-    padding: 10px;
-    justify-content: space-evenly;
-    box-shadow: #f9d423 5px 5px 10px;
-    border-radius: 40px;
 
 
 
-}
-
-.texte-01 {
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
-}
-
-.texte-01 img {
-    width: 300px;
-    padding: 10px;
-    justify-content: center;
-}
-
-.texte-02 {
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
-}
-
-.texte-02 img {
-    width: 300px;
-    padding: 10px;
-    justify-content: center;
 
 
-}
+
+
+
+
