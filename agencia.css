@@ -107,24 +107,52 @@
 }
 
 .div-section-04 {
-    width: 350px;
-    /*largura das 3 caixas*/
-    height: 350px;
+    padding: 100px;
     /*altura das 3 caixas*/
     background-color: rgb(95, 95, 130);
     /*cor de fundo para as caixas*/
-    text-align: center;
-    /*alinhamento geral dos textos*/
-    padding: 15px;
-    /*espaçamento interno das caixas*/
-    box-shadow: 10px 10px 20px white;
+   display: flex;
+   align-items: center;
+   height: 400px;
+   justify-content: space-evenly;
+   gap: 50px;
+   
+}
+
+.div-compra {
+     width: 600px;
+    height: 400px;
+    background-color: rgb(58, 36, 8);
+
 }
 
 .div-livre img {
-    width: 20px;
+    width: 100px;
 }
 
-.div-livre p {
-    font-size: 15px;
-    color: white;
+.div-star {
+    width: 500px;
+    height: 600px;
+    background-color: rgb(58, 36, 8);
+}
+
+.div-loco{
+    width:450px; /*largura da img*/
+    height:500px ; /*altura da img*/
+    background-color: rgb(58, 36, 8);
+    
+}
+
+.div-loco1{
+    width:400px; /*largura da img*/
+    height:400px ; /*altura da img*/
+    background-color: rgb(58, 36, 8);
+    
+
+}
+
+footer {
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
