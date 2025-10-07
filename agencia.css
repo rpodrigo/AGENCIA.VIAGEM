@@ -111,16 +111,16 @@
     /*altura das 3 caixas*/
     background-color: rgb(95, 95, 130);
     /*cor de fundo para as caixas*/
-   display: flex;
-   align-items: center;
-   height: 400px;
-   justify-content: space-evenly;
-   gap: 50px;
-   
+    display: flex;
+    align-items: center;
+    height: 400px;
+    justify-content: space-evenly;
+    gap: 50px;
+
 }
 
 .div-compra {
-     width: 600px;
+    width: 10000px;
     height: 400px;
     background-color: rgb(58, 36, 8);
 
@@ -136,23 +136,27 @@
     background-color: rgb(58, 36, 8);
 }
 
-.div-loco{
-    width:450px; /*largura da img*/
-    height:500px ; /*altura da img*/
+.div-loco {
+    width: 350px;
+    /*largura da img*/
+    height: 500px;
+    /*altura da img*/
     background-color: rgb(58, 36, 8);
-    
+
 }
 
-.div-loco1{
-    width:400px; /*largura da img*/
-    height:400px ; /*altura da img*/
+.div-loco1 {
+    width: 400px;
+    /*largura da img*/
+    height: 400px;
+    /*altura da img*/
     background-color: rgb(58, 36, 8);
-    
+
 
 }
 
 footer {
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
